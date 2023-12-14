@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+background-color: #0d0d0d;
+}
+.card-container {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 25px;
+margin-top: 100px;
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVHhuYlpnDDF3bwKMjK0RU04MSxUHGSOwGbQ&usqp=CAU');v
+}
+
+.card {
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.6s ease;
+}
+
+.card:hover {
+transform: translate(-20px);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-content {
+padding: 50px;
+}
+
+.card-content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 2opx;
+}
+
+.card-button {
+    display: inline-block;
+    background-color: #3498bd;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+.btn-box a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100;
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 5px;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+body{
+    background: #f2f4f6;
+    color: #ededed;
+background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400/75d32378391167.5ca3980fb4bd6.jpg') !important;
+background-repeat: no-repeat;
+background-size: cover;
+    
+}
